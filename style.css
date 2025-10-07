@@ -1,0 +1,46 @@
+#ocr-bubble {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 9999;
+}
+
+#ocr-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+}
+
+#ocr-popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 340px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+#ocr-popup-content pre {
+  margin-top: 15px;
+  white-space: pre-wrap;
+  font-size: 14px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
